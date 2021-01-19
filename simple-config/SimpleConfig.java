@@ -1,4 +1,3 @@
-package net.darktree.fading.util;
 
 /*
  * Copyright (c) 2021 magistermaks
