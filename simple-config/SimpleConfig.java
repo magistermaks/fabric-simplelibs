@@ -97,7 +97,7 @@ public class SimpleConfig {
      * @return new config request object
      */
     public static ConfigRequest of( String filename ) {
-        Path path = FabricLoader.getInstance().getConfigDir();
+        Path path = Path.of("./config");
         return new ConfigRequest( path.resolve( filename + ".properties" ).toFile(), filename );
     }
 
